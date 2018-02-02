@@ -33,6 +33,7 @@
     [self initSearchBar];
     self.view.backgroundColor = [UIColor cyanColor];
     self.tableview.separatorStyle = UITableViewCellSelectionStyleNone;
+    self.tableview.backgroundColor = [UIColor orangeColor];
 }
 
 #pragma mark searchbar
