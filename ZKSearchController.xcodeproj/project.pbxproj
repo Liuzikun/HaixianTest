@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58078DC0202436AA00AEC61E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DBF202436AA00AEC61E /* AppDelegate.m */; };
+		58078DC3202436AA00AEC61E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DC2202436AA00AEC61E /* ViewController.m */; };
+		58078DC6202436AA00AEC61E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58078DC4202436AA00AEC61E /* Main.storyboard */; };
+		58078DC8202436AA00AEC61E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58078DC7202436AA00AEC61E /* Assets.xcassets */; };
+		58078DCB202436AA00AEC61E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58078DC9202436AA00AEC61E /* LaunchScreen.storyboard */; };
+		58078DCE202436AA00AEC61E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DCD202436AA00AEC61E /* main.m */; };
+		58078DD8202436AB00AEC61E /* ZKSearchControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DD7202436AB00AEC61E /* ZKSearchControllerTests.m */; };
+		58078DE3202436AB00AEC61E /* ZKSearchControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DE2202436AB00AEC61E /* ZKSearchControllerUITests.m */; };
+		58078DF2202436D900AEC61E /* ZKSearchControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DF1202436D900AEC61E /* ZKSearchControllerViewController.m */; };
+		58078DF520243A7F00AEC61E /* JDYNativeSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DF420243A7F00AEC61E /* JDYNativeSearchBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58078DD4202436AA00AEC61E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58078DB3202436AA00AEC61E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58078DBA202436AA00AEC61E;
+			remoteInfo = ZKSearchController;
+		};
+		58078DDF202436AB00AEC61E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58078DB3202436AA00AEC61E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58078DBA202436AA00AEC61E;
+			remoteInfo = ZKSearchController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58078DBB202436AA00AEC61E /* ZKSearchController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKSearchController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58078DBE202436AA00AEC61E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58078DBF202436AA00AEC61E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58078DC1202436AA00AEC61E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58078DC2202436AA00AEC61E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58078DC5202436AA00AEC61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58078DC7202436AA00AEC61E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58078DCA202436AA00AEC61E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58078DCC202436AA00AEC61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58078DCD202436AA00AEC61E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58078DD3202436AA00AEC61E /* ZKSearchControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKSearchControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58078DD7202436AB00AEC61E /* ZKSearchControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSearchControllerTests.m; sourceTree = "<group>"; };
+		58078DD9202436AB00AEC61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58078DDE202436AB00AEC61E /* ZKSearchControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKSearchControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58078DE2202436AB00AEC61E /* ZKSearchControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSearchControllerUITests.m; sourceTree = "<group>"; };
+		58078DE4202436AB00AEC61E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58078DF0202436D900AEC61E /* ZKSearchControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSearchControllerViewController.h; sourceTree = "<group>"; };
+		58078DF1202436D900AEC61E /* ZKSearchControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSearchControllerViewController.m; sourceTree = "<group>"; };
+		58078DF320243A7F00AEC61E /* JDYNativeSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDYNativeSearchBar.h; path = ../../../qianniu0901/jdy_iphone/Code/GlobalSearch/SearchBar/JDYNativeSearchBar.h; sourceTree = "<group>"; };
+		58078DF420243A7F00AEC61E /* JDYNativeSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDYNativeSearchBar.m; path = ../../../qianniu0901/jdy_iphone/Code/GlobalSearch/SearchBar/JDYNativeSearchBar.m; sourceTree = "<group>"; };
+		58078DF620243DB800AEC61E /* icon_main_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_main_search@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58078DB8202436AA00AEC61E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58078DD0202436AA00AEC61E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58078DDB202436AB00AEC61E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58078DB2202436AA00AEC61E = {
+			isa = PBXGroup;
+			children = (
+				58078DBD202436AA00AEC61E /* ZKSearchController */,
+				58078DD6202436AA00AEC61E /* ZKSearchControllerTests */,
+				58078DE1202436AB00AEC61E /* ZKSearchControllerUITests */,
+				58078DBC202436AA00AEC61E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58078DBC202436AA00AEC61E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58078DBB202436AA00AEC61E /* ZKSearchController.app */,
+				58078DD3202436AA00AEC61E /* ZKSearchControllerTests.xctest */,
+				58078DDE202436AB00AEC61E /* ZKSearchControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58078DBD202436AA00AEC61E /* ZKSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				58078DF620243DB800AEC61E /* icon_main_search@2x.png */,
+				58078DF320243A7F00AEC61E /* JDYNativeSearchBar.h */,
+				58078DF420243A7F00AEC61E /* JDYNativeSearchBar.m */,
+				58078DBE202436AA00AEC61E /* AppDelegate.h */,
+				58078DBF202436AA00AEC61E /* AppDelegate.m */,
+				58078DC1202436AA00AEC61E /* ViewController.h */,
+				58078DC2202436AA00AEC61E /* ViewController.m */,
+				58078DF0202436D900AEC61E /* ZKSearchControllerViewController.h */,
+				58078DF1202436D900AEC61E /* ZKSearchControllerViewController.m */,
+				58078DC4202436AA00AEC61E /* Main.storyboard */,
+				58078DC7202436AA00AEC61E /* Assets.xcassets */,
+				58078DC9202436AA00AEC61E /* LaunchScreen.storyboard */,
+				58078DCC202436AA00AEC61E /* Info.plist */,
+				58078DCD202436AA00AEC61E /* main.m */,
+			);
+			path = ZKSearchController;
+			sourceTree = "<group>";
+		};
+		58078DD6202436AA00AEC61E /* ZKSearchControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				58078DD7202436AB00AEC61E /* ZKSearchControllerTests.m */,
+				58078DD9202436AB00AEC61E /* Info.plist */,
+			);
+			path = ZKSearchControllerTests;
+			sourceTree = "<group>";
+		};
+		58078DE1202436AB00AEC61E /* ZKSearchControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58078DE2202436AB00AEC61E /* ZKSearchControllerUITests.m */,
+				58078DE4202436AB00AEC61E /* Info.plist */,
+			);
+			path = ZKSearchControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58078DBA202436AA00AEC61E /* ZKSearchController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58078DE7202436AB00AEC61E /* Build configuration list for PBXNativeTarget "ZKSearchController" */;
+			buildPhases = (
+				58078DB7202436AA00AEC61E /* Sources */,
+				58078DB8202436AA00AEC61E /* Frameworks */,
+				58078DB9202436AA00AEC61E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKSearchController;
+			productName = ZKSearchController;
+			productReference = 58078DBB202436AA00AEC61E /* ZKSearchController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58078DD2202436AA00AEC61E /* ZKSearchControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58078DEA202436AB00AEC61E /* Build configuration list for PBXNativeTarget "ZKSearchControllerTests" */;
+			buildPhases = (
+				58078DCF202436AA00AEC61E /* Sources */,
+				58078DD0202436AA00AEC61E /* Frameworks */,
+				58078DD1202436AA00AEC61E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58078DD5202436AA00AEC61E /* PBXTargetDependency */,
+			);
+			name = ZKSearchControllerTests;
+			productName = ZKSearchControllerTests;
+			productReference = 58078DD3202436AA00AEC61E /* ZKSearchControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58078DDD202436AB00AEC61E /* ZKSearchControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58078DED202436AB00AEC61E /* Build configuration list for PBXNativeTarget "ZKSearchControllerUITests" */;
+			buildPhases = (
+				58078DDA202436AB00AEC61E /* Sources */,
+				58078DDB202436AB00AEC61E /* Frameworks */,
+				58078DDC202436AB00AEC61E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58078DE0202436AB00AEC61E /* PBXTargetDependency */,
+			);
+			name = ZKSearchControllerUITests;
+			productName = ZKSearchControllerUITests;
+			productReference = 58078DDE202436AB00AEC61E /* ZKSearchControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58078DB3202436AA00AEC61E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Liuzikun;
+				TargetAttributes = {
+					58078DBA202436AA00AEC61E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					58078DD2202436AA00AEC61E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58078DBA202436AA00AEC61E;
+					};
+					58078DDD202436AB00AEC61E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 58078DBA202436AA00AEC61E;
+					};
+				};
+			};
+			buildConfigurationList = 58078DB6202436AA00AEC61E /* Build configuration list for PBXProject "ZKSearchController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58078DB2202436AA00AEC61E;
+			productRefGroup = 58078DBC202436AA00AEC61E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58078DBA202436AA00AEC61E /* ZKSearchController */,
+				58078DD2202436AA00AEC61E /* ZKSearchControllerTests */,
+				58078DDD202436AB00AEC61E /* ZKSearchControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58078DB9202436AA00AEC61E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58078DCB202436AA00AEC61E /* LaunchScreen.storyboard in Resources */,
+				58078DC8202436AA00AEC61E /* Assets.xcassets in Resources */,
+				58078DC6202436AA00AEC61E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58078DD1202436AA00AEC61E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58078DDC202436AB00AEC61E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58078DB7202436AA00AEC61E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58078DC3202436AA00AEC61E /* ViewController.m in Sources */,
+				58078DF520243A7F00AEC61E /* JDYNativeSearchBar.m in Sources */,
+				58078DCE202436AA00AEC61E /* main.m in Sources */,
+				58078DC0202436AA00AEC61E /* AppDelegate.m in Sources */,
+				58078DF2202436D900AEC61E /* ZKSearchControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58078DCF202436AA00AEC61E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58078DD8202436AB00AEC61E /* ZKSearchControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58078DDA202436AB00AEC61E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58078DE3202436AB00AEC61E /* ZKSearchControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58078DD5202436AA00AEC61E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58078DBA202436AA00AEC61E /* ZKSearchController */;
+			targetProxy = 58078DD4202436AA00AEC61E /* PBXContainerItemProxy */;
+		};
+		58078DE0202436AB00AEC61E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58078DBA202436AA00AEC61E /* ZKSearchController */;
+			targetProxy = 58078DDF202436AB00AEC61E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58078DC4202436AA00AEC61E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58078DC5202436AA00AEC61E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58078DC9202436AA00AEC61E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58078DCA202436AA00AEC61E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58078DE5202436AB00AEC61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58078DE6202436AB00AEC61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58078DE8202436AB00AEC61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKSearchController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taobao.ZKSearchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58078DE9202436AB00AEC61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKSearchController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taobao.ZKSearchController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58078DEB202436AB00AEC61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKSearchControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taobao.ZKSearchControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKSearchController.app/ZKSearchController";
+			};
+			name = Debug;
+		};
+		58078DEC202436AB00AEC61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKSearchControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taobao.ZKSearchControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKSearchController.app/ZKSearchController";
+			};
+			name = Release;
+		};
+		58078DEE202436AB00AEC61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKSearchControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taobao.ZKSearchControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZKSearchController;
+			};
+			name = Debug;
+		};
+		58078DEF202436AB00AEC61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZKSearchControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = taobao.ZKSearchControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZKSearchController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58078DB6202436AA00AEC61E /* Build configuration list for PBXProject "ZKSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58078DE5202436AB00AEC61E /* Debug */,
+				58078DE6202436AB00AEC61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58078DE7202436AB00AEC61E /* Build configuration list for PBXNativeTarget "ZKSearchController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58078DE8202436AB00AEC61E /* Debug */,
+				58078DE9202436AB00AEC61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58078DEA202436AB00AEC61E /* Build configuration list for PBXNativeTarget "ZKSearchControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58078DEB202436AB00AEC61E /* Debug */,
+				58078DEC202436AB00AEC61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58078DED202436AB00AEC61E /* Build configuration list for PBXNativeTarget "ZKSearchControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58078DEE202436AB00AEC61E /* Debug */,
+				58078DEF202436AB00AEC61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58078DB3202436AA00AEC61E /* Project object */;
+}
