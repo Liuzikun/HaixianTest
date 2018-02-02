@@ -31,7 +31,7 @@
     [self.view addSubview:self.tableview];
     
     [self initSearchBar];
-    
+    self.view.backgroundColor = [UIColor cyanColor];
 }
 
 #pragma mark searchbar
