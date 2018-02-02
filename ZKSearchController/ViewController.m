@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "JDYNativeSearchBar.h"
+//#import "JDYNativeSearchBar.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate,UISearchDisplayDelegate>
 
@@ -45,17 +45,17 @@
 //
 //    self.tableview.tableHeaderView = searchBar;
     
-    JDYNativeSearchBar *searchBar = [[JDYNativeSearchBar alloc] initWithFrame:CGRectMake(0, 0, 375, 44)];
-
-    searchBar.placeholder = @"搜索";
-    searchBar.delegate = self;
-    [searchBar setViewBackgroundColor:[UIColor whiteColor]];
-    [searchBar setBarBackgroundColor:[UIColor colorWithRed:239.0/255 green:240.0/255 blue:244.0/255 alpha:1]];
-    [searchBar setBarCornerRadius:5];
-    [searchBar setPlaceholderAlignment:JDYNativeSearchBarPlaceholderAlignmentCenter];
-    [searchBar setSearchIcon:[UIImage imageNamed:@"icon_main_search"]];
-    
-    self.searchDisplayController = [[UISearchDisplayController alloc] initWithSearchBar:searchBar contentsController:self];
+//    JDYNativeSearchBar *searchBar = [[JDYNativeSearchBar alloc] initWithFrame:CGRectMake(0, 0, 375, 44)];
+//
+//    searchBar.placeholder = @"搜索";
+//    searchBar.delegate = self;
+//    [searchBar setViewBackgroundColor:[UIColor whiteColor]];
+//    [searchBar setBarBackgroundColor:[UIColor colorWithRed:239.0/255 green:240.0/255 blue:244.0/255 alpha:1]];
+//    [searchBar setBarCornerRadius:5];
+//    [searchBar setPlaceholderAlignment:JDYNativeSearchBarPlaceholderAlignmentCenter];
+//    [searchBar setSearchIcon:[UIImage imageNamed:@"icon_main_search"]];
+//
+//    self.searchDisplayController = [[UISearchDisplayController alloc] initWithSearchBar:searchBar contentsController:self];
 
 //    self.searchDisplayController.displaysSearchBarInNavigationBar = YES;
     
@@ -63,7 +63,7 @@
 //    searchController.hidesNavigationBarDuringPresentation = NO;
 //    searchController.dimsBackgroundDuringPresentation = YES;
 //    self.searchDisplayController.delegate = self;
-    self.tableview.tableHeaderView = searchBar;
+//    self.tableview.tableHeaderView = searchBar;
     
 }
 
