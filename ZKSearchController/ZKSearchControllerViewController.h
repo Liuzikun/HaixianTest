@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZKSearchControllerViewController : UISearchDisplayController
+@interface ZKSearchControllerViewController : UIViewController
 
 @end
