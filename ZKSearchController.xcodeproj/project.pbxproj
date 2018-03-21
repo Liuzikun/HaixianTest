@@ -16,6 +16,7 @@
 		58078DD8202436AB00AEC61E /* ZKSearchControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DD7202436AB00AEC61E /* ZKSearchControllerTests.m */; };
 		58078DE3202436AB00AEC61E /* ZKSearchControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DE2202436AB00AEC61E /* ZKSearchControllerUITests.m */; };
 		58078DF2202436D900AEC61E /* ZKSearchControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58078DF1202436D900AEC61E /* ZKSearchControllerViewController.m */; };
+		EA76458420623E0A0007792B /* JDYNativeSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA76458320623E0A0007792B /* JDYNativeSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		58078DF0202436D900AEC61E /* ZKSearchControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSearchControllerViewController.h; sourceTree = "<group>"; };
 		58078DF1202436D900AEC61E /* ZKSearchControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSearchControllerViewController.m; sourceTree = "<group>"; };
 		58078DF620243DB800AEC61E /* icon_main_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_main_search@2x.png"; sourceTree = "<group>"; };
+		EA76458220623E0A0007792B /* JDYNativeSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDYNativeSearchBar.h; sourceTree = "<group>"; };
+		EA76458320623E0A0007792B /* JDYNativeSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDYNativeSearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 		58078DBD202436AA00AEC61E /* ZKSearchController */ = {
 			isa = PBXGroup;
 			children = (
+				EA76458520623E3D0007792B /* Tool */,
 				58078DF620243DB800AEC61E /* icon_main_search@2x.png */,
 				58078DBE202436AA00AEC61E /* AppDelegate.h */,
 				58078DBF202436AA00AEC61E /* AppDelegate.m */,
@@ -137,6 +141,15 @@
 				58078DE4202436AB00AEC61E /* Info.plist */,
 			);
 			path = ZKSearchControllerUITests;
+			sourceTree = "<group>";
+		};
+		EA76458520623E3D0007792B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				EA76458220623E0A0007792B /* JDYNativeSearchBar.h */,
+				EA76458320623E0A0007792B /* JDYNativeSearchBar.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58078DC3202436AA00AEC61E /* ViewController.m in Sources */,
+				EA76458420623E0A0007792B /* JDYNativeSearchBar.m in Sources */,
 				58078DCE202436AA00AEC61E /* main.m in Sources */,
 				58078DC0202436AA00AEC61E /* AppDelegate.m in Sources */,
 				58078DF2202436D900AEC61E /* ZKSearchControllerViewController.m in Sources */,
